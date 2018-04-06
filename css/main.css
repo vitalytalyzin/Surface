@@ -1,0 +1,417 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+header {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../img/head-cover-football.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: rgb(10, 14, 52);
+}
+
+header .container {
+  height: 100vh;
+  margin: 0 9%;
+  text-align: center;
+}
+
+.head_logo {
+  display: inline-block;
+  margin-top: 3%;
+}
+
+.head-logo_icon {
+  width: 190px;
+  height: 40px;
+  stroke: rgb(255, 255, 255);
+  fill: rgb(255, 255, 255);
+}
+
+.head_logo:hover .head-logo_icon {
+  stroke: rgb(94, 66, 176);
+  fill: rgb(94, 66, 176);
+  transition: all 0.3s;
+}
+
+.head_title {
+  margin-top: 16%;
+  font-size: 4.6vmax; /*70px*/
+  letter-spacing: 6px;
+  line-height: 90px;
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+}
+
+.head_title span {
+  display: block;
+}
+
+.head_title span:nth-child(1) {
+  text-align: left;
+}
+
+.head_title span:nth-child(2) {
+  text-align: right;
+}
+
+.download-us {
+  display: flex;
+  justify-content: center;
+  margin-top: 13%;
+}
+
+.download-us_store {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  padding: 8px 0px;
+  margin-left: 40px;
+  background-color: rgb(94, 66, 176);
+  border-radius: 50px;
+  font-size: 12px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  box-sizing: border-box;
+}
+
+.download-us_icon {
+  width: 40px;
+  height: 45px;
+  fill: rgb(255, 255, 255);
+}
+
+.download-us_label {
+  text-transform: uppercase;
+  text-align: left;
+  padding-left: 20px;
+}
+
+.download-us_store:hover {
+  background-color: rgb(255, 255, 255);
+  transition: all 0.3s;
+}
+
+.download-us_store:hover .download-us_icon {
+  fill: rgb(94, 66, 176);
+  transition: all 0.3s;
+}
+
+.download-us_store:hover .download-us_label {
+  color: rgb(94, 66, 176);
+  transition: all 0.3s;
+}
+
+.options {
+  position: relative;
+}
+
+.options_img {
+  position: absolute;
+  width: 50%;
+  height: 107%;
+  margin-left: 12.5%;
+  margin-top: -3%;
+  background-image: url(../img/football-player.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.options_content {
+  display: flex;
+  flex-direction: column;
+}
+
+.options_content .item_content {
+  margin-left: 53%;
+  margin-right: 9%;
+}
+
+.options_content .item:nth-child(2) {
+  background-color: rgb(246, 244, 250);
+}
+
+.options_content .item:nth-child(3) {
+  background-color: rgb(94, 66, 176);
+}
+
+.options_content h2 {
+  padding-top: 80px;
+  padding-bottom: 29px;
+  font-size: 65px;
+  text-transform: uppercase;
+  color: rgb(231, 231, 231);
+}
+
+.item_content ul, .list_content ul {
+  padding: 0;
+  list-style: none;
+}
+
+.item_content li:nth-child(1):before {
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 25px;
+  background-image: url(../img/marker-sprite.png);
+  background-repeat: no-repeat;
+  background-position: -5px -5px;
+}
+
+.item:nth-child(2) .item_content li:nth-child(1):before {
+  content: "";
+  display: inline-block;
+  width: 22px;
+  height: 25px;
+  background-position: -35px -5px;
+}
+
+.item:nth-child(3) .item_content li:nth-child(1):before {
+  content: "";
+  display: inline-block;
+  width: 22px;
+  height: 25px;
+  background-position: -67px -5px;
+}
+
+.item_content h3 {
+  display: inline-block;
+  font-size: 32px;
+  text-transform: uppercase;
+  color: rgb(193, 193, 193);
+}
+
+.item_content p {
+  font-size: 16px;
+  letter-spacing: 0.8px;
+}
+
+.item:nth-child(1) h3 {
+  padding-bottom: 2px;
+}
+
+.item:nth-child(1) p {
+  padding-bottom: 35px;
+}
+
+.item:nth-child(2) h3 {
+  padding-top: 23px;
+  padding-bottom: 10px;
+}
+
+.item:nth-child(2) p {
+  padding-bottom: 32px;
+}
+
+.item:nth-child(3) h3 {
+  padding-top: 43px;
+  padding-bottom: 10px;
+}
+
+.item:nth-child(3) p {
+  padding-bottom: 65px;
+  padding-right: 10px;
+  color: rgb(255, 255, 255);
+}
+
+.more-options {
+  position: relative;
+}
+
+.more-options_content {
+  display: flex;
+  flex-direction: column;
+}
+
+.more-options_img {
+  position: absolute;
+  width: 52%;
+  height: 100%;
+  margin-left: 42.5%;
+  margin-top: -1.5%;
+  background-image: url(../img/basketball-player.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.more-options_content .list_content {
+  margin-left: 17%;
+}
+
+.more-options_content .list:nth-child(2) {
+  background-color: rgb(245, 246, 247);
+}
+
+.more-options_content .list:nth-child(3) {
+  background-color: rgb(10, 14, 52);
+}
+
+.more-options_content h2 {
+  padding-top: 70px;
+  padding-bottom: 27px;
+  font-size: 65px;
+  text-transform: uppercase;
+  color: rgb(231, 231, 231);
+}
+
+.list_content li:nth-child(1):before {
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 25px;
+  background-image: url(../img/marker-sprite.png);
+  background-repeat: no-repeat;
+  background-position: -5px -5px;
+}
+
+.list:nth-child(2) .list_content li:nth-child(1):before {
+  content: "";
+  display: inline-block;
+  width: 22px;
+  height: 25px;
+  background-position: -35px -5px;
+}
+
+.list:nth-child(3) .list_content li:nth-child(1):before {
+  content: "";
+  display: inline-block;
+  width: 22px;
+  height: 25px;
+  background-position: -5px -40px;
+}
+
+.list_content h3 {
+  display: inline-block;
+  font-size: 32px;
+  text-transform: uppercase;
+  color: rgb(193, 193, 193);
+}
+
+.list_content p {
+  font-size: 16px;
+  letter-spacing: 0.8px;
+  padding-right: 60%;
+}
+
+.list:nth-child(1) h3 {
+  padding-bottom: 9px;
+}
+
+.list:nth-child(1) p {
+  padding-bottom: 40px;
+}
+
+.list:nth-child(2) h3 {
+  padding-top: 23px;
+  padding-bottom: 16px;
+}
+
+.list:nth-child(2) p {
+  padding-bottom: 40px;
+  letter-spacing: 0.5px;
+}
+
+.list:nth-child(3) h3 {
+  padding-top: 50px;
+  padding-bottom: 10px;
+}
+
+.list:nth-child(3) p {
+  padding-bottom: 57px;
+  letter-spacing: 0.5px;
+  color: rgb(255, 255, 255);
+}
+
+.manual {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.manual_img, .manual_content {
+  width: 50%;
+}
+
+.manual_content {
+  position: relative;
+}
+
+.manual_img {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.manual_img:nth-child(1) {
+  background-image: url(../img/be-active.png);
+}
+
+.manual_img:nth-child(4) {
+  background-image: url(../img/find-contact.png);
+}
+
+.manual_img:nth-child(5) {
+  background-image: url(../img/work-it.png);
+}
+
+.manual_content h2 {
+  font-size: 65px;
+  color: rgb(231, 231, 231);
+  text-transform: uppercase;
+}
+
+.manual_content p {
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+}
+
+.manual_content:nth-child(2) h2 {
+  padding: 185px 0 0 104px;
+}
+
+.manual_content:nth-child(2) p {
+  padding: 69px 49% 167px 109px;
+  letter-spacing: 0.5px;
+  line-height: 25px;
+}
+
+.manual_content:nth-child(3) h2 {
+  padding: 185px 0 0 150px;
+}
+
+.manual_content:nth-child(3) p {
+  padding: 37px 35% 225px 152px;
+  letter-spacing: 0.6px;
+  line-height: 24px;
+}
+
+.manual_content:nth-child(6) h2 {
+  padding: 185px 0 0 107px;
+}
+
+.manual_content:nth-child(6) p {
+  padding: 69px 25% 179px 109px;
+  letter-spacing: 0.5px;
+  line-height: 21px;
+}
+
+/*.manual_content:nth-child(2):before {
+  position: absolute;
+  content: url(../img/01-marker-purple.png);
+  display: block;
+  width: 170px;
+  min-height: 156px;
+  background-color: rgb(94, 66, 176);
+}*/
